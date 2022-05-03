@@ -7,11 +7,10 @@ public class senTense {
 
     static String sentence;
 
-    public static String getSentence() {
+    public static void getSentence() {
         //take an input from the user;
         Scanner sentence1 = new Scanner(System.in);
         sentence = sentence1.nextLine();
-        return sentence;
     }
 
 }
